@@ -53,7 +53,7 @@ pip install torch torchvision tqdm numpy opencv-python einops pytorch-fid mrcfil
 python code/prepare_empiar_patches.py
 ```
 
-你可以在文件中修改：
+可以在文件中修改：
 ```python
 patch_size = 128
 stride = 128
@@ -70,7 +70,7 @@ max_mrcs = 10
 python code/train_ddpm_cryo.py
 ```
 
-你可以控制训练时长，例如：
+可以控制训练时长，例如：
 ```python
 args.epochs = 10
 args.batch_size = 8
@@ -120,9 +120,9 @@ Input (image+label) --> UNet 编码器 --> Transformer blocks --> UNet 解码器
 
 ##  预训练模型下载
 
-我们已将训练好的 DDPM 模型上传至 Google Drive，便于复现与评估：
+已将训练好的 DDPM 模型上传至 Google Drive，便于复现与评估：
 
-- 🔗 [下载 ddpm_latest.pth.tar](https://drive.google.com/file/d/1_XksaqyySbOX-RiXSlVA-a9rxK1hsIxz/view?usp=drive_link)
+- https://drive.google.com/file/d/1_XksaqyySbOX-RiXSlVA-a9rxK1hsIxz/view?usp=drive_link
 
 ---
 
@@ -140,7 +140,7 @@ Input (image+label) --> UNet 编码器 --> Transformer blocks --> UNet 解码器
 
 - CryoGEM: [https://arxiv.org/abs/2312.02235](https://arxiv.org/abs/2312.02235)
 - Retree: [https://github.com/AAleka/retree](https://github.com/AAleka/retree)
-- DDPM: [Ho et al., 2020](https://arxiv.org/abs/2006.11239)
+
 
 ---
 
